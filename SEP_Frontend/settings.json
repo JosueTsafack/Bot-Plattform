@@ -1,0 +1,4 @@
+{
+  "server": "http://localhost:3000",
+  "!!!!comment": "change settings to make the app fit your environment: put in the URL (including port) of your backend server!!!11!"
+}

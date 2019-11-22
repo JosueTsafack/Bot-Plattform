@@ -1,0 +1,12 @@
+{
+  "name": "welcome_bot_intent",
+  "version": "0.0.1",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js"
+  },
+  "author": "Christian, Coenen, Dennis Schlage, Josue Nguemo Tsafack",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {}
+}

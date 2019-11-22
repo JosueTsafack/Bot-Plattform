@@ -1,0 +1,39 @@
+version: '2.0'
+
+services:
+  backend:
+    build: ./SEP_Backend/
+    restart: always
+    ports:
+      - "3000:3000"
+    networks: 
+      - sep
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+    links:
+      - "db:db"
+    depends_on:
+      - db
+    env_file:
+      - .env
+
+  frontend:
+    build: ./SEP_Frontend/
+    restart: always
+    networks: 
+      - sep
+    ports:
+      - "80:8080"
+    tty: true
+    stdin_open: true
+
+  db:
+    image: mongo
+    restart: always
+    networks: 
+      - sep
+    ports:
+      - "27017:27017"
+
+networks:
+  sep:
