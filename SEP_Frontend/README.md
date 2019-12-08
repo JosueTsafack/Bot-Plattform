@@ -1,5 +1,7 @@
 # Ordnerstruktur
 
+run node build/server.js --define process.env.NODE_ENV='production' to start the frontend server
+
 - <code>client/</code> enthält den Frontend Client, aufgeteilt in
   - <code>components/</code>
     - <code>App.vue</code> die Hauptdatei über die der Client gestartet wird

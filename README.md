@@ -1,5 +1,7 @@
 # Botforge
 
+first start mongodb and then navigate to SEP_Backend and finally run npm start
+
 Instructions to deploy the software (Tested on Ubuntu 16.04 and Windows 10):
 
 1. Install latest stable docker version (Tested with v.17.11.0-ce, v.1.13.1)
