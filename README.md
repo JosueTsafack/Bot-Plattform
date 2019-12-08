@@ -1,7 +1,5 @@
 # Botforge
 
-first start mongodb and then navigate to SEP_Backend and finally run npm start
-
 Instructions to deploy the software (Tested on Ubuntu 16.04 and Windows 10):
 
 1. Install latest stable docker version (Tested with v.17.11.0-ce, v.1.13.1)
@@ -22,3 +20,13 @@ The above copyright notice and this permission notice shall be included in all c
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
+
+# Starting the database
++ install and start MongoDb: under Windows go to C:\Program Files\MongoDB\Server\3.6\bin And start mongod.exe and mongo.exe
+
+# Starting the backend server
++ navigate to SEP_Backend folder and run <code>npm start</code> to start the backend server
+first start mongodb and then navigate to SEP_Backend and finally run.
+
+# Starting the frontend server
++ navigate to SEP_Frontend folder and run <code>node build/server.js --define process.env.NODE_ENV='production'</code> to start the frontend server. Then open your browser at localhost, you are now up and running, go ahead and enjoy the great secure app made by Josue Nguemo Tsafack(Software Architect and ceo at Tensend)
