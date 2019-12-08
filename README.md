@@ -30,3 +30,4 @@ first start mongodb and then navigate to SEP_Backend and finally run.
 
 # Starting the frontend server
 + navigate to SEP_Frontend folder and run <code>node build/server.js --define process.env.NODE_ENV='production'</code> to start the frontend server. Then open your browser at localhost, you are now up and running, go ahead and enjoy the great secure app made by Josue Nguemo Tsafack(Software Architect and ceo at Tensend)
++ One last thing, you need my credentials to login, open the .env file and get them there.
